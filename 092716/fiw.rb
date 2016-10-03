@@ -61,8 +61,8 @@ words = num / 1000000000
  
   end
 
-  #FOR HUNDREDS 
-  words = num / 100
+   
+  words = num / 100  
   remainder = num % 100
 
   if words > 0 
@@ -72,7 +72,7 @@ words = num / 1000000000
   end
 
 
-  #FOR TENS!!!
+  
   words = num / 10
   remainder = num % 10
 
@@ -87,7 +87,7 @@ words = num / 1000000000
 
   words = remainder
 
-  #FOR ONES!!!!
+  
   if words > 0 
     conversion << unit[words]
 
